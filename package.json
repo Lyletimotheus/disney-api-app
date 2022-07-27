@@ -38,5 +38,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.1.5"
-  }
+  },
+  "homepage": "https://Lyletimotheus.github.io/disney-api-app"
 }
