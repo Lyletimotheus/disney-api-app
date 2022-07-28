@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/disney-api-app/static/css/main.17b85935.css",
-    "main.js": "/disney-api-app/static/js/main.5fc35608.js",
+    "main.css": "/disney-api-app/static/css/main.f29a01f9.css",
+    "main.js": "/disney-api-app/static/js/main.49288f83.js",
     "static/media/react-icon.png": "/disney-api-app/static/media/react-icon.8a6fc0a24a800d1e0f4a.png",
     "static/media/tailwind-css-logo.png": "/disney-api-app/static/media/tailwind-css-logo.1dbfbe2171ea475c4b2a.png",
     "index.html": "/disney-api-app/index.html",
-    "main.17b85935.css.map": "/disney-api-app/static/css/main.17b85935.css.map",
-    "main.5fc35608.js.map": "/disney-api-app/static/js/main.5fc35608.js.map"
+    "main.f29a01f9.css.map": "/disney-api-app/static/css/main.f29a01f9.css.map",
+    "main.49288f83.js.map": "/disney-api-app/static/js/main.49288f83.js.map"
   },
   "entrypoints": [
-    "static/css/main.17b85935.css",
-    "static/js/main.5fc35608.js"
+    "static/css/main.f29a01f9.css",
+    "static/js/main.49288f83.js"
   ]
 }
