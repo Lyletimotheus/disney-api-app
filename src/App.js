@@ -6,7 +6,7 @@ import tailwindLogo from './assets/tailwind-css-logo.png'
 
 function App() {
   const [characters, setCharacters] = useState([]);
-  console.log(characters)
+
   useEffect(() => {
     getCharacters();
   }, []);
@@ -22,7 +22,6 @@ function App() {
 
       localStorage.setItem('character', JSON.stringify(data.data));
       setCharacters(data.data);
-      console.log(characters)
     }
   }
 
@@ -40,21 +39,21 @@ function App() {
       <p className="mt-2 text-sm text-left text-gray-500 md:text-center"><span className="font-semibold">Author:</span> Lyle Timotheus</p>
       <h2 className="text-sm text-left text-gray-500 md:text-center">Tech stack</h2>
       <div className="flex justify-center gap-6">
-        <div class="w-80 group flex items-center bg-indigo-900 bg-opacity-40 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-800 ring-cyan-700 my-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition">
+        <div class="w-80 group flex items-center text-white bg-blue-800 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2  ring-cyan-700 my-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition">
           <img class="w-9" src={reactLogo} alt="" />
           <div>
-            <span className="">React</span>
-            <span class="text-xs text-blue-300 block">Javascript</span>
+            <span className="font-semibold">React</span>
+            <span class="text-xs text-white block">Javascript</span>
           </div>
           <div>
             <i class="fa fa-chevron-right opacity-0 group-hover:opacity-100 transform -translate-x-1 group-hover:translate-x-0 block transition"></i>
           </div>
         </div>
-        <div class="w-80 group flex items-center bg-indigo-900 bg-opacity-40 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-800 ring-cyan-700 my-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition">
+        <div class="w-80 group flex items-center text-white bg-blue-800 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2  ring-cyan-700 my-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition">
           <img class="w-9" src={tailwindLogo} alt="" />
           <div>
-            <span>Tailwind CSS</span>
-            <span class="text-xs text-blue-300 block">CSS</span>
+            <span className="font-semibold">Tailwind CSS</span>
+            <span class="text-xs text-white block">CSS</span>
           </div>
           <div>
             <i class="fa fa-chevron-right opacity-0 group-hover:opacity-100 transform -translate-x-1 group-hover:translate-x-0 block transition"></i>
